@@ -144,7 +144,7 @@ Figure 5b
 python3 master_file.py -run parameter_sweep_2D -t duo -s starch -ss w -p1n w_ea -p1s 0:100:1 -p2n w_eb -p2s 0:100:1
 ```
 
-Figure 5c
+Figure 5c (and Supplementary Figures)
 Move the pickle files from 5a and 5b into the same folder as the compare.py file and then run:
 ```
 python3 compare.py
