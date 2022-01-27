@@ -38,7 +38,7 @@ To run a simulation from scratch use the -run argument. The run argument accepts
 The model can run the same parameters for a monoculture or a consortium (duoculture) case. The type argument accepts:
 * mono : runs the monoculture case where both cells co-express both amylases
 * duo : runs the duoculture case where one cell expresses a-amylase and the other expresses glucoamylase
-* both : will run mono followed by duo - not advised for large parameter sweeps as it requires high memory)
+* both : will run mono followed by duo - not advised for large parameter sweeps)
 
 #### -s (choose which substrate to provide)
 
