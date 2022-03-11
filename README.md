@@ -139,14 +139,20 @@ Figure 5a
 python3 master_file.py -run parameter_sweep_2D -t mono -s starch -ss w -p1n w_ea -p1s 0:100:1 -p2n w_eb -p2s 0:100:1
 ```
 
-Figure 5b
+Figure 5b 
 ```
 python3 master_file.py -run parameter_sweep_2D -t duo -s starch -ss w -p1n w_ea -p1s 0:100:1 -p2n w_eb -p2s 0:100:1
 ```
 
-Figure 5c (and Supplementary Figures)
+Figure 5c (and Supplementary Figures 2 and 3)
 Move the pickle files from 5a and 5b into the same folder as the compare.py file and then run:
 ```
 python3 compare.py
 ```
 
+Supplementary Figure 1
+```
+python3 master_file.py -run parameter_sweep_2D -t duo -s starch -ss w -p1n Na -p1s 0:10:1 -p2n Nb -p2s 0:10:1
+```
+
+Supplementary Figure 4 - edit the input file with the different values of Na and Nb, then repeat the steps for Figures 5a b and c
